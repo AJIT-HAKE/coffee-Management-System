@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fef9f9; /* Light pink background for the page */
+  color: #333;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #444;
+  color: white;
+  padding: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: #f7d6e0; /* Light pink hover effect */
+  border-radius: 5px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #444;
+  margin: 20px 0;
+}
+
+section {
+  margin: 40px 0;
+}
+
+.menu-card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item h3 {
+  color: #444;
+}
+
+button {
+  background-color: #ffe6f7; /* Faint pink background for buttons */
+  color: #444; /* Dark text for contrast */
+  border: 1px solid #f4b4d3; /* Border to match pink theme */
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #fcd4e8; /* Slightly darker pink on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+button:active {
+  background-color: #f7b8d6; /* Darker pink when active */
+}
+
+form {
+  display: grid;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, select, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid #f4b4d3; /* Pink border */
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #ffe6f7; /* Faint pink header background */
+  color: #444; /* Dark text for contrast */
+}
+
+#orderSummary, #order-table {
+  background-color: #ffe6f7; /* Faint pink table background */
+}
+
+footer {
+  background-color: #444;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #f4b400;
+}
